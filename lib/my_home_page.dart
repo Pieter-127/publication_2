@@ -36,7 +36,7 @@ class MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  child: RaisedButton(
+                  child: ElevatedButton(
                       child: Text("Previous"),
                       onPressed: () {
                         setState(() {
@@ -46,7 +46,7 @@ class MyHomePageState extends State<MyHomePage> {
                   margin: EdgeInsets.only(right: 8, top: 8),
                 ),
                 Container(
-                  child: RaisedButton(
+                  child: ElevatedButton(
                       child: Text("Next"),
                       onPressed: () {
                         setState(() {
